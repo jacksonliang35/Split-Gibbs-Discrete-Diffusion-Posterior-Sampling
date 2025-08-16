@@ -36,11 +36,18 @@ We use the reward oracles used for DNA design from [DRAKES](https://github.com/C
 
 ### Posterior sampling with SGDD
 
-Example: to run **DNA design** with `SGDD`:
+Example: 
+
+- to run **DNA design** with `SGDD`:
 
 ```
 python main.py problem=dna model=dna algorithm=sgdd measurement=False num_samples=640 batch_size=10
 ```
 
-The results are saved at the folder `exps`.
+- to run **MNIST XOR** inverse problem with `SGDD`:
 
+```
+python main.py problem=mnist_xor model=mnist algorithm=sgdd algorithm.method.mh_steps=2000
+```
+
+The results are saved at the folder `exps`.

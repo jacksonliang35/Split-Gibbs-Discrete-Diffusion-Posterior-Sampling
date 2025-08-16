@@ -1,7 +1,7 @@
 from .base import BaseOperator
 import torch
 import numpy as np
-from utils.resizer import Resizer
+from .utils.resizer import Resizer
 
 class SuperResolution(BaseOperator):
     def __init__(self,resolution=256, factor=4, sigma_noise=0.01, device='cuda'):
