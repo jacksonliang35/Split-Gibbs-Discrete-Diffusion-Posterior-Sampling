@@ -1,3 +1,5 @@
+# From SEDD: https://github.com/louaaron/Score-Entropy-Discrete-Diffusion/blob/main/sampling.py
+
 import abc
 import torch
 import torch.nn.functional as F
