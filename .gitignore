@@ -7,3 +7,4 @@ data/MNIST
 data/pianoroll_dataset
 wandb
 debug*
+data/ffhq
