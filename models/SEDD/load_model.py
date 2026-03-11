@@ -62,7 +62,7 @@ def load_model_local_test(root_dir, device):
     return score_model, graph, noise
 
 def load_model(root_dir, device):
-    return load_model_local(root_dir, device)
+    return load_model_local_test(root_dir, device)
     # try:
     #     return load_model_local(root_dir, device)
     # except:
